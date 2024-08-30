@@ -1,0 +1,224 @@
+.icdashboardIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.dashboardMenuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-36xl);
+}
+.dashboard {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+}
+.dashboardMenuItemParent {
+  width: 171px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: center;
+}
+.camerasMenuIcon {
+  height: 40px;
+  width: 32px;
+  position: relative;
+}
+.camerasMenuIconContainer,
+.healthProfessionalTeamamico {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.camerasMenuIconContainer {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.cameras {
+  text-decoration: none;
+  position: relative;
+  line-height: 17.1px;
+  color: inherit;
+  display: inline-block;
+  min-width: 61px;
+}
+.camerasMenuIconContainerParent,
+.camerasMenuInnerInner {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.camerasMenuIconContainerParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid-1);
+  cursor: pointer;
+}
+.camerasMenuInnerInner {
+  height: 85.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  color: var(--color-dodgerblue-100);
+}
+.icrecruitmentIcon {
+  height: 29px;
+  width: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.personnelMenuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 var(--padding-sm);
+}
+.personnel {
+  position: relative;
+  line-height: 19.34px;
+  display: inline-block;
+  min-width: 66px;
+}
+.personnelMenuItemParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl-8);
+  cursor: pointer;
+}
+.icsettingsIcon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.setttings {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  line-height: 17.1px;
+  color: inherit;
+  display: inline-block;
+  min-width: 61px;
+}
+.icsettingsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-4xs-6);
+  cursor: pointer;
+}
+.camerasMenuInnerChild {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  text-align: center;
+}
+.camerasMenuContainer,
+.camerasMenuInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.camerasMenuInner {
+  align-self: stretch;
+  gap: var(--gap-37xl);
+}
+.camerasMenuContainer {
+  width: 66px;
+  padding: var(--padding-base-4) 0 0;
+  box-sizing: border-box;
+}
+.sidebarBackground {
+  height: 113px;
+  width: 3px;
+  position: relative;
+  background-color: var(--color-dodgerblue-100);
+}
+.camerasMenuItem {
+  width: 166.8px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.camerasMenuItem,
+.camerasMenuItemWrapper,
+.sidebar {
+  display: flex;
+  align-items: flex-start;
+}
+.camerasMenuItemWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+}
+.sidebar {
+  margin-top: -58px;
+  width: 268.3px;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-45xl) 0 var(--padding-127xl) var(--padding-37xl);
+  gap: var(--gap-20xl-6);
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-smi-9);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1050px) {
+  .sidebar {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-76xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sidebar {
+    gap: var(--gap-xl);
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}

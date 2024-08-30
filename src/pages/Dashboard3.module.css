@@ -1,0 +1,290 @@
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 900px;
+}
+.settings {
+  position: absolute;
+  top: 53px;
+  left: 400px;
+  font-size: var(--font-size-17xl);
+  line-height: 24px;
+  font-weight: 800;
+  font-family: var(--font-manrope);
+}
+.dashboardChild {
+  position: absolute;
+  top: 89px;
+  left: 401px;
+  background-color: var(--color-dodgerblue-100);
+  width: 75px;
+  height: 6px;
+}
+.subtractIcon {
+  position: relative;
+  width: 427px;
+  height: 171px;
+}
+.cameras,
+.div {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  line-height: 24px;
+  font-weight: 600;
+}
+.div {
+  top: 0;
+  left: 17px;
+  font-size: var(--font-size-33xl);
+  font-weight: 800;
+}
+.camerasParent,
+.groupWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85px;
+  height: 73px;
+}
+.groupWrapper {
+  top: 61px;
+  left: 315px;
+}
+.dashboardInner,
+.subtractParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 427px;
+  height: 171px;
+}
+.dashboardInner {
+  top: 192px;
+  left: 400px;
+  text-align: right;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-manrope);
+}
+.span {
+  color: var(--color-dodgerblue-100);
+}
+.name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+}
+.backgroundChild {
+  border-radius: 13.27px;
+  border: 0.8px solid var(--color-silver);
+  box-sizing: border-box;
+}
+.background,
+.backgroundChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.text {
+  position: absolute;
+  top: calc(50% - 6.65px);
+  left: 19.9px;
+  width: 66px;
+  height: 12px;
+}
+.largeInput {
+  position: absolute;
+  top: 22.4px;
+  left: 0;
+  width: 340px;
+  height: 41.5px;
+  font-size: var(--font-size-xs-6);
+  color: var(--color-silver);
+}
+.email {
+  width: 340px;
+  position: relative;
+  height: 63.9px;
+}
+.west {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 0;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+}
+.text1,
+.text2 {
+  position: absolute;
+  top: calc(50% - 6.65px);
+  left: 19.9px;
+  width: 29px;
+  height: 12px;
+}
+.text2 {
+  width: 83px;
+}
+.videoQuality {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  display: inline-block;
+  width: 116.9px;
+}
+.text3 {
+  position: absolute;
+  top: calc(50% - 6.65px);
+  left: 19.9px;
+  width: 23px;
+  height: 12px;
+}
+.largeInput3 {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 157px;
+  height: 41.5px;
+  font-size: var(--font-size-xs-6);
+  color: var(--color-silver);
+}
+.email3 {
+  width: 157px;
+  position: relative;
+  height: 63.4px;
+}
+.text4,
+.text5 {
+  position: absolute;
+  top: calc(50% - 6.65px);
+  left: 19.9px;
+  width: 11px;
+  height: 12px;
+}
+.text5 {
+  width: 40px;
+}
+.emailParent {
+  position: absolute;
+  top: 181px;
+  left: 979px;
+  width: 341px;
+  height: 446px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-6xl);
+  font-size: var(--font-size-smi-7);
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 3.72px;
+  background-color: var(--color-dodgerblue-100);
+}
+.createNewPersonnel {
+  position: absolute;
+  height: 57.49%;
+  width: 73.92%;
+  top: 21.26%;
+  left: 12.93%;
+  letter-spacing: -0.04em;
+  line-height: 17.88px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  position: absolute;
+  height: 3.71%;
+  width: 24.65%;
+  top: 77.11%;
+  right: 7.85%;
+  bottom: 19.18%;
+  left: 67.5%;
+  text-align: center;
+}
+.groupItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 3.72px;
+  border: 1px solid var(--color-gold-100);
+  box-sizing: border-box;
+}
+.rectangleGroup {
+  position: absolute;
+  height: 3.71%;
+  width: 24.65%;
+  top: 71%;
+  right: 7.85%;
+  bottom: 25.29%;
+  left: 67.5%;
+  text-align: center;
+  color: var(--color-gold-100);
+}
+.groupInner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 3.72px;
+  background-color: var(--color-tomato-200);
+}
+.vectorIcon {
+  position: absolute;
+  height: 45.51%;
+  width: 31.2%;
+  top: 28.44%;
+  right: 34.11%;
+  bottom: 26.05%;
+  left: 34.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleContainer {
+  position: absolute;
+  height: 3.71%;
+  width: 2.38%;
+  top: 42.33%;
+  right: 39.15%;
+  bottom: 53.96%;
+  left: 58.47%;
+}
+.dashboard {
+  width: 1440px;
+  background-color: var(--color-gray-300);
+  max-width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs-9);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

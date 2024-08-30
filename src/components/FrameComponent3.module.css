@@ -1,0 +1,222 @@
+.frameIcon {
+  height: 79px;
+  width: 90px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl) 0 var(--padding-11xl);
+}
+.smartdsvision {
+  position: relative;
+  line-height: 34px;
+  font-weight: 600;
+}
+.frameGroup {
+  margin-left: -39.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.frameChild {
+  width: 103.1px;
+  height: 50px;
+  margin: 0 !important;
+  position: absolute;
+  top: 82.8px;
+  left: -15.6px;
+  z-index: 1;
+}
+.icdashboardIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icdashboardWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.dashboard {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 72px;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+}
+.cameraIcon {
+  height: 40px;
+  width: 32px;
+  position: relative;
+}
+.cameraIconWrapper,
+.frameWrapper1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.cameraIconWrapper {
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  flex-shrink: 0;
+}
+.frameWrapper1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.cameras {
+  text-decoration: none;
+  position: relative;
+  line-height: 17.1px;
+  color: inherit;
+  display: inline-block;
+  min-width: 61px;
+  flex-shrink: 0;
+}
+.frameDiv,
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid-1);
+}
+.frameDiv {
+  height: 85.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.icrecruitmentIcon {
+  height: 29px;
+  width: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.icrecruitmentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 var(--padding-sm);
+}
+.personnel {
+  position: relative;
+  line-height: 19.34px;
+  display: inline-block;
+  min-width: 66px;
+  flex-shrink: 0;
+}
+.frameWrapper2,
+.groupDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv {
+  flex-direction: column;
+  gap: var(--gap-5xl-8);
+  cursor: pointer;
+}
+.frameWrapper2 {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  color: var(--color-dodgerblue-100);
+}
+.icsettingsIcon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.setttings {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  line-height: 17.1px;
+  color: inherit;
+  display: inline-block;
+  min-width: 61px;
+}
+.icsettingsParent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-4xs-6);
+}
+.frameParent,
+.frameWrapper3,
+.icsettingsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper3 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  text-align: center;
+}
+.frameParent {
+  height: 687px;
+  width: 72px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-122xl-7);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-37xl);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-smi-9);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1125px) {
+  .frameParent {
+    padding-bottom: var(--padding-73xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .smartdsvision {
+    font-size: var(--font-size-base);
+    line-height: 27px;
+  }
+  .frameParent {
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,116 @@
+.featureItemChild {
+  height: 56px;
+  width: 62px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+}
+.featureIcon {
+  height: 26.4px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.featureItem,
+.featureRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featureItem {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-lg);
+}
+.featureRow {
+  width: 62px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.realTimeDetection {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+.instantlyDetectAnd {
+  margin: 0;
+}
+.realTimeDetectionInstantlyContainer {
+  height: 86px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 148%;
+  display: inline-block;
+}
+.featureRowParent {
+  width: 285px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-sm);
+}
+.groupIcon {
+  height: 23.3px;
+  width: 28px;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-mini);
+}
+.monitorEmployeeActivity {
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+.detailedActivityTrackingContainer {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 148%;
+  display: inline-block;
+  min-width: 157px;
+}
+.featureResume,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  min-width: 217px;
+}
+.featureResume {
+  align-self: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-mini);
+    flex-wrap: wrap;
+  }
+}

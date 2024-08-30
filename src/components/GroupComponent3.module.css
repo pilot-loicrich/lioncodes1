@@ -1,0 +1,189 @@
+.frameChild {
+  align-self: stretch;
+  height: 191.5px;
+  position: relative;
+  border-radius: 7.69px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.cameraFeedPlaceholderChild {
+  height: 20.8px;
+  width: 106.1px;
+  position: relative;
+  backdrop-filter: blur(3.08px);
+  background-color: var(--color-dodgerblue-200);
+  display: none;
+}
+.camera5 {
+  position: relative;
+  line-height: 19px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 69px;
+  z-index: 2;
+}
+.cameraFeedPlaceholder,
+.cameraFeedPlaceholderItem {
+  backdrop-filter: blur(3.08px);
+  background-color: var(--color-dodgerblue-200);
+}
+.cameraFeedPlaceholder {
+  width: 106.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) var(--padding-11xs-8);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.cameraFeedPlaceholderItem {
+  height: 20.8px;
+  width: 116.1px;
+  position: relative;
+  display: none;
+}
+.date12062025 {
+  position: relative;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 2;
+}
+.cameraFeedPlaceholder1,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cameraFeedPlaceholder1 {
+  backdrop-filter: blur(3.08px);
+  background-color: var(--color-dodgerblue-200);
+  flex-direction: row;
+  padding: var(--padding-11xs-6) var(--padding-4xs) var(--padding-12xs-2);
+  white-space: nowrap;
+  z-index: 1;
+  font-size: var(--font-size-5xs-7);
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: 7.69px;
+  flex-direction: column;
+  padding: var(--padding-10xs-3) var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-126xl-3);
+  background-image: url(/public/rectangle-635@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 213px;
+  max-width: 100%;
+}
+.vectorIcon {
+  width: 44.2px;
+  height: 26.8px;
+  position: relative;
+}
+.div {
+  position: relative;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 19px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 var(--padding-smi);
+}
+.vectorIcon1 {
+  height: 26.8px;
+  width: 26.8px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 var(--padding-4xs);
+}
+.div1 {
+  position: relative;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm) 0 var(--padding-mini);
+}
+.vectorIcon2 {
+  width: 33.7px;
+  height: 33.7px;
+  position: relative;
+}
+.frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 var(--padding-3xs);
+}
+.vectorGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 var(--padding-7xs);
+}
+.frameParent,
+.vectorParent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.vectorParent {
+  margin-bottom: -2.6px;
+  width: 44.2px;
+  flex-direction: column;
+  gap: var(--gap-4xs-3);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-poppins);
+}
+.frameParent {
+  width: 394px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-10xs-6);
+  box-sizing: border-box;
+  gap: var(--gap-2xl-9);
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-smi-3);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

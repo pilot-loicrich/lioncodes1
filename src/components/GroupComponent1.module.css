@@ -1,0 +1,178 @@
+.frameChild {
+  align-self: stretch;
+  height: 191.5px;
+  position: relative;
+  border-radius: 7.69px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.cameraFeedCameraChild {
+  height: 20.8px;
+  width: 106.1px;
+  position: relative;
+  backdrop-filter: blur(3.08px);
+  background-color: var(--color-dodgerblue-200);
+  display: none;
+}
+.camera1 {
+  position: relative;
+  line-height: 19px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 67px;
+  z-index: 2;
+}
+.cameraFeedCamera,
+.cameraFeedDateContainerChild {
+  backdrop-filter: blur(3.08px);
+  background-color: var(--color-dodgerblue-200);
+}
+.cameraFeedCamera {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) var(--padding-11xs-8);
+  white-space: nowrap;
+  z-index: 1;
+}
+.cameraFeedDateContainerChild {
+  height: 20.8px;
+  width: 116.1px;
+  position: relative;
+  display: none;
+}
+.date12062025 {
+  position: relative;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 2;
+}
+.cameraFeedDateContainer {
+  backdrop-filter: blur(3.08px);
+  background-color: var(--color-dodgerblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) var(--padding-4xs) var(--padding-12xs-3);
+  white-space: nowrap;
+  z-index: 1;
+  font-size: var(--font-size-5xs-7);
+}
+.cameraFeedItem,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 7.69px;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-3) var(--padding-11xs);
+  gap: var(--gap-126xl-3);
+  background-image: url(/public/rectangle-631@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.cameraFeedItem {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-6);
+  box-sizing: border-box;
+  min-width: 213px;
+  max-width: 100%;
+}
+.cameraFeedSeparator {
+  width: 44.2px;
+  height: 26.8px;
+  position: relative;
+}
+.cameraFeedPlaceholder {
+  position: relative;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 19px;
+}
+.cameraFeedPlaceholderContai {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 var(--padding-smi);
+}
+.cameraFeedSeparator1 {
+  height: 26.8px;
+  width: 26.8px;
+  position: relative;
+}
+.cameraFeedSeparatorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 var(--padding-4xs);
+}
+.cameraFeedSeparator2 {
+  width: 33.7px;
+  height: 33.7px;
+  position: relative;
+}
+.cameraFeedPlaceholderContai2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs) 0 var(--padding-5xs);
+}
+.cameraFeedBottomRow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-1);
+}
+.cameraFeedBottomRowWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 var(--padding-7xs);
+}
+.cameraFeedItemParent,
+.cameraFeedSeparatorParent {
+  width: 44.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-3);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-poppins);
+}
+.cameraFeedItemParent {
+  width: 394px;
+  flex-direction: row;
+  gap: var(--gap-2xl-9);
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-smi-3);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 450px) {
+  .cameraFeedItemParent {
+    flex-wrap: wrap;
+  }
+}

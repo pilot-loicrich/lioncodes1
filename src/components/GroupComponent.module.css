@@ -1,0 +1,64 @@
+.frameChild {
+  height: 56px;
+  width: 62px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+}
+.vectorIcon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.frameWrapper {
+  width: 62px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.reactive {
+  margin: 0;
+}
+.realtimeAnormalieDetection {
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+.reactiveRealtimeAnormalieContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 148%;
+}
+.frameParent {
+  width: 293px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+}

@@ -1,0 +1,56 @@
+.maskGroupIcon {
+  height: 31.3px;
+  width: 31.3px;
+  position: relative;
+  object-fit: contain;
+}
+.fabriceMoukete {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 100px;
+}
+.personnelCardDetails,
+.personnelCardListContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-7) 0 0;
+}
+.personnelCardListContent {
+  background-color: var(--color-gray-500);
+  flex-direction: row;
+  padding: var(--padding-5xs-4) var(--padding-30xl) var(--padding-5xs-5);
+  gap: var(--gap-mini-9);
+  z-index: 2;
+}
+.fabriceMouketeContainer {
+  flex-direction: column;
+  padding: var(--padding-6xs-6) 0 0;
+}
+.fabriceMouketeContainer,
+.personnelCardList,
+.personnelCardListContent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.personnelCardListContent2 {
+  background-color: var(--color-gray-500);
+  flex-direction: row;
+  padding: var(--padding-5xs-5) var(--padding-30xl) var(--padding-5xs-4);
+  gap: var(--gap-mini-9);
+  z-index: 2;
+}
+.personnelCardList {
+  flex-direction: column;
+  gap: var(--gap-3xs-7);
+  text-align: left;
+  font-size: var(--font-size-xs-9);
+  font-family: var(--font-poppins);
+}

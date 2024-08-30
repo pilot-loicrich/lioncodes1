@@ -1,0 +1,263 @@
+.maskGroupIcon {
+  height: 117px;
+  width: 117px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.maskGroupWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-24xl);
+}
+.fionaGreavesm {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  line-height: 24px;
+  font-weight: 800;
+  font-family: var(--font-manrope);
+  color: var(--color-white);
+  text-align: right;
+  z-index: 1;
+}
+.frameParent,
+.layout {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-8xl);
+}
+.layout {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-40xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.span {
+  color: var(--color-dodgerblue-100);
+}
+.name {
+  position: relative;
+  font-size: var(--font-size-smi-7);
+  letter-spacing: -0.02em;
+  line-height: 13px;
+  font-family: var(--font-poppins);
+  text-align: left;
+  display: inline-block;
+  min-width: 47px;
+}
+.backgroundChild {
+  height: 41.5px;
+  width: 340px;
+  position: relative;
+  border-radius: 13.27px;
+  border: 0.8px solid var(--color-silver);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.fionaGreavesm1 {
+  width: 92px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xs-6);
+  background-color: transparent;
+  height: 12px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  color: var(--color-silver);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.background,
+.infoHeaders {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.background {
+  border-radius: 13.27px;
+  border: 0.8px solid var(--color-silver);
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-lgi) var(--padding-sm);
+}
+.infoHeaders {
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-3xs-4);
+}
+.dateOfBirth {
+  color: var(--color-white);
+}
+.dateOfBirthContainer,
+.jan1996 {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-family: var(--font-poppins);
+  text-align: left;
+  display: inline-block;
+}
+.dateOfBirthContainer {
+  font-size: var(--font-size-smi-7);
+  line-height: 13px;
+  min-width: 85px;
+  flex-shrink: 0;
+}
+.jan1996 {
+  font-size: var(--font-size-xs-6);
+  line-height: 12px;
+  color: var(--color-silver);
+  min-width: 62px;
+  z-index: 1;
+}
+.jan1996Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-4) 0 0;
+}
+.calendarIcon {
+  height: 18px;
+  width: 16px;
+  position: relative;
+  min-height: 18px;
+  z-index: 1;
+}
+.background1,
+.dateOfBirthParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.background1 {
+  border-radius: 13.27px;
+  border: 0.8px solid var(--color-silver);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-lg) var(--padding-2xs)
+    var(--padding-lgi);
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.dateOfBirthParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-3xs-3);
+}
+.post {
+  position: relative;
+  font-size: var(--font-size-smi-7);
+  letter-spacing: -0.02em;
+  line-height: 13px;
+  font-family: var(--font-poppins);
+  text-align: left;
+  display: inline-block;
+  min-width: 35px;
+}
+.salesAndMarketist {
+  width: 111px;
+  border: 0;
+  outline: 0;
+  font-size: var(--font-size-xs-6);
+  background-color: transparent;
+  height: 12px;
+  line-height: 100%;
+  color: var(--color-silver);
+  padding: 0;
+  z-index: 1;
+}
+.department,
+.economics,
+.salesAndMarketist {
+  font-family: var(--font-poppins);
+  position: relative;
+  letter-spacing: -0.02em;
+  text-align: left;
+  display: inline-block;
+}
+.department {
+  font-size: var(--font-size-smi-7);
+  line-height: 13px;
+  min-width: 84px;
+}
+.economics {
+  width: 62px;
+  border: 0;
+  outline: 0;
+  font-size: var(--font-size-xs-6);
+  background-color: transparent;
+  height: 12px;
+  line-height: 100%;
+  color: var(--color-silver);
+  padding: 0;
+  z-index: 1;
+}
+.fionaContent,
+.fionaInfo,
+.layout1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fionaInfo {
+  height: 318.4px;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 var(--padding-65xl-8);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  z-index: 1;
+}
+.fionaContent,
+.layout1 {
+  align-self: stretch;
+}
+.layout1 {
+  flex-direction: row;
+  padding: 0 var(--padding-6xs) var(--padding-4xl-6);
+  box-sizing: border-box;
+}
+.fionaContent {
+  margin: 0;
+  flex-direction: column;
+  gap: var(--gap-33xl);
+}
+@media screen and (max-width: 450px) {
+  .fionaGreavesm {
+    font-size: var(--font-size-3xl);
+    line-height: 19px;
+  }
+  .fionaInfo,
+  .layout {
+    box-sizing: border-box;
+  }
+  .layout {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+  .fionaInfo {
+    padding-bottom: var(--padding-36xl);
+  }
+  .fionaContent {
+    gap: var(--gap-7xl);
+  }
+}

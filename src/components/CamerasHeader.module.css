@@ -1,0 +1,103 @@
+.vectorIcon {
+  width: 20px;
+  position: relative;
+  height: 25px;
+}
+.vectorWrapper {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.camera1 {
+  position: relative;
+  line-height: 19.34px;
+}
+.frameGroup {
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 0;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  top: 2px;
+  left: 66px;
+  width: 23px;
+  height: 23px;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  left: 0;
+  width: 38px;
+}
+.vectorIcon3 {
+  top: 0;
+  left: 116px;
+  width: 29px;
+  height: 29px;
+}
+.div,
+.div1,
+.div2 {
+  position: absolute;
+  top: 32px;
+  left: 13px;
+  line-height: 19.34px;
+}
+.div1,
+.div2 {
+  left: 69px;
+}
+.div2 {
+  left: 123px;
+}
+.vectorParent {
+  width: 145px;
+  position: absolute;
+  margin: 0 !important;
+  top: 28px;
+  left: 239px;
+  height: 52px;
+  z-index: 1;
+  text-align: center;
+}
+.frameChild,
+.frameParent {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frameChild {
+  width: 9px;
+  margin: 0 !important;
+  top: 30px;
+  left: 324px;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 1px solid var(--color-white);
+  height: 9px;
+  z-index: 2;
+}
+.frameParent {
+  top: 179px;
+  left: calc(50% - 213.5px);
+  background-color: var(--color-dodgerblue-100);
+  width: 427px;
+  height: 108px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-26xl);
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--font-size-smi-9);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

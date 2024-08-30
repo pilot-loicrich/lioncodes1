@@ -1,0 +1,182 @@
+.frameChild,
+.frameItem {
+  position: relative;
+  display: none;
+}
+.frameChild {
+  align-self: stretch;
+  height: 191.5px;
+  border-radius: 7.69px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameItem {
+  height: 20.8px;
+  width: 106.1px;
+  backdrop-filter: blur(3.08px);
+  background-color: var(--color-dodgerblue-200);
+}
+.camera3 {
+  position: relative;
+  line-height: 19px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 69px;
+  z-index: 2;
+}
+.frameInner,
+.rectangleGroup {
+  backdrop-filter: blur(3.08px);
+  background-color: var(--color-dodgerblue-200);
+}
+.rectangleGroup {
+  width: 106.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) var(--padding-11xs-8);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameInner {
+  height: 20.8px;
+  width: 116.1px;
+  position: relative;
+  display: none;
+}
+.date12062025 {
+  position: relative;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 2;
+}
+.rectangleContainer {
+  backdrop-filter: blur(3.08px);
+  background-color: var(--color-dodgerblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) var(--padding-4xs) var(--padding-12xs-3);
+  white-space: nowrap;
+  z-index: 1;
+  font-size: var(--font-size-5xs-7);
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 7.69px;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-3) var(--padding-11xs);
+  gap: var(--gap-126xl-3);
+  background-image: url(/public/rectangle-633@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameWrapper {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-5);
+  box-sizing: border-box;
+  min-width: 213px;
+  max-width: 100%;
+}
+.vectorIcon {
+  width: 44.2px;
+  height: 26.8px;
+  position: relative;
+}
+.div {
+  position: relative;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 19px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 var(--padding-smi);
+}
+.vectorIcon1 {
+  height: 26.8px;
+  width: 26.8px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 var(--padding-4xs);
+}
+.vectorIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0.5px;
+  width: 33.7px;
+  height: 33.7px;
+}
+.div2 {
+  position: absolute;
+  top: 33.7px;
+  left: 8.7px;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 19px;
+}
+.vectorGroup {
+  height: 56.7px;
+  flex: 1;
+  position: relative;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 var(--padding-7xs);
+}
+.frameParent,
+.vectorParent {
+  width: 44.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-3);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-poppins);
+}
+.frameParent {
+  width: 394px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-12xs-1);
+  box-sizing: border-box;
+  gap: var(--gap-2xl-9);
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-smi-3);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,27 @@
+.button1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  display: inline-block;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  min-width: 43px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl-1) var(--padding-xl);
+  background-color: var(--color-dodgerblue-100);
+  align-self: stretch;
+  border-radius: 16.66px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.button:hover {
+  background-color: var(--color-cornflowerblue);
+}
